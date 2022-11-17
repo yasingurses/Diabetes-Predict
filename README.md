@@ -1,7 +1,7 @@
 
 
 
-HASTA TAHLİL VERİ SETİ KULLANARAK ŞEKER HASTALIĞINI TAHMİN ETME
+# HASTA TAHLİL VERİ SETİ KULLANARAK ŞEKER HASTALIĞINI TAHMİN ETME
 
 
 
@@ -12,7 +12,7 @@ HASTA TAHLİL VERİ SETİ KULLANARAK ŞEKER HASTALIĞINI TAHMİN ETME
 
 
 
-1.	PROJEDE KARŞILAŞILAN SORUNLAR, ÇÖZÜMLER VE ÇÖZÜM SÜRESİ
+ # 1.	PROJEDE KARŞILAŞILAN SORUNLAR, ÇÖZÜMLER VE ÇÖZÜM SÜRESİ
 
 KARŞILAŞILAN SORUNLAR	ÇÖZÜMLER	ÇÖZÜM SÜREMİZ
 IDE olarak PyCharm kullanırken kütüphane yükleme sıkıntısı çektik.	Stackoverflow, Medium gibi çeşitli yazılı internet kaynaklarından yararlandık.	2 Saat
@@ -20,24 +20,24 @@ Python kütüphanesindeki bir bug yüzünden programın doğruluğundan şüphe 
 Projede hangi yapay zeka tekniğinin uygulanmasının seçimi.	En çok doğruluk payı çıkaran sonucu kullandık	5 Gün
 Python arayüz (Tkinter) kullanımı ve Data setin entegre edilmesi.	Tkinter kullanımının öğrenilmesi üzerine çalışmalar gerçekleştirdik. 	3 Gün
 
-2.	PROJEDE KULLANILAN TEKNİKLER VE YÖNTEMLER
+# 2.	PROJEDE KULLANILAN TEKNİKLER VE YÖNTEMLER
 KNN, makine öğrenmesi kullanılmıştır. Veri setindeki veriler bu sayede kullanılan tekniğimizde hata payı azaltılması hedeflenmiştir. 
 
 
-3.	PROJE TANIMI
+# 3.	PROJE TANIMI
 Diyabet verisi üzerine makine öğrenmesi tekniğini kullanarak kişilerin KNN algoritmasına göre diyabetli ya da diyabetsiz olduklarını tahmin etme programı geliştirilmiştir. Bu kapsamda geliştirilen bir arayüz ile kullanımı kolaylaştırılması hedeflenmiştir.
 
-4.	PROJE AMACI
+# 4.	PROJE AMACI
 Diyabet, vücudumuzda pankreas adlı salgı bezinin yeterli miktarda insülin hormonu üretememesi ya da ürettiği insülin hormonunun etkili bir şekilde kullanılamaması sonucunda gelişir. Tüketilen besinlerden kana geçen şeker hücreler tarafından kullanılamadığı için kan şekeri yükselir. Kan şekeri kontrol altına alınmadığı takdirde zaman içerisinde diyabet hastalığı körlüğe, kalp ve damar hastalıklarına, inmeye (felç), böbrek yetmezliğine ve sinir sisteminde hasara yol açabilir. Aynı şekilde gebelik döneminde de kontrol altına alınamayan diyabet anne ve bebek sağlığı açısında sağlık sorunlarına neden olabilmektedir.
 Projemizin amacı diyabet hastası olma şüphesi duyan ve ön test yapmak isteyen kişilere yardımcı olmak ve olası gelişecek sorunları engellemesi amaçlanmıştır.
 
-5.	PROJE AKIŞ DİYAGRAMI
+# 5.	PROJE AKIŞ DİYAGRAMI
  
-6.	PROJEDE KULLANILAN PROGRAM VE KÜTÜPHANELER
+# 6.	PROJEDE KULLANILAN PROGRAM VE KÜTÜPHANELER
 Programlama dili olarak python tercih edilmiştir. Python tercih edilme sebebi yapay zeka projeleri için birçok kütüphanenin entegre bir şekilde çalışıyor olması ve python dilinin kullanımının sade ve anlaşılır olmasından kaynaklanmaktadır. Kullandığımız python kütüphaneleri; 
 pandas, sklearn, matplotlib, seaborn ve tkinter.
 
-7.	PROJE KODLARIMIZ (AÇIKLAMA SATIRLARI İLE BİRLİKTE)
+# 7.	PROJE KODLARIMIZ (AÇIKLAMA SATIRLARI İLE BİRLİKTE)
 import pandas as pd
 #Pandas veri işleme ve analiz işlemleri için import ediyoruz
 import matplotlib.pyplot as plt
@@ -323,7 +323,7 @@ degisken9_etiket.pack(padx=10, pady=10, side=LEFT)
 
 master.mainloop()
 
-8.	KULLANILAN VERİ SETİ TANITIMI
+# 8.	KULLANILAN VERİ SETİ TANITIMI
 
 •	Bu veri seti Hindistan merkezli bir hastaneden alınmıştır
 •	veri seti kaggle.com üzerinden indirilmiştir daha sonra kullanılmak üzere kontrolü yapılıp işlenmiştir.
@@ -332,7 +332,7 @@ master.mainloop()
 
 OUTCOME ÇIKTISI
  
-9.	PERFORMANS DEĞERLENDİRME SÜRECİ
+# 9.	PERFORMANS DEĞERLENDİRME SÜRECİ
  
  
 
@@ -346,7 +346,7 @@ F1 SKORU
 BAŞARI ORANI
  
 
-10.	AYNI VERİ SETİ İLE YAPILAN FARKLI ÇALIŞMALARLA KIYASLAMA
+# 10.	AYNI VERİ SETİ İLE YAPILAN FARKLI ÇALIŞMALARLA KIYASLAMA
 
 Birçok farklı model kullanıldığını gördük. Bu modeller;
 1.Logistic Regression 
@@ -361,7 +361,7 @@ En yüksek accuracy (doğruluk) KNN modelinde çıktığınız gözlemledik. Ba�
 
 
 
-11.	KULLANILAN VERİ SETİ İLE BAŞKA HANGİ ÇALIŞMALAR YAPILABİLİR?
+# 11.	KULLANILAN VERİ SETİ İLE BAŞKA HANGİ ÇALIŞMALAR YAPILABİLİR?
 
 Bu veri seti kişinin belirli medikal verilerini (Kan basıncı, insülin, vücut kitle endeksi vb.) ve diyabet hastası olup olmadığının verisini içermektedir. Bu sebeplerden ötürü yine başka çalışmaları incelediğimizde bu proje kapsamında da yapıldığı gibi eldekiler verileri test ve train edilerek kişinin hasta olup olmadığı tespiti yapılmak üzerine çalışmalar olduğunu görmekteyiz.
 
